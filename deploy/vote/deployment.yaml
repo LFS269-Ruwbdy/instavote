@@ -7,7 +7,7 @@ metadata:
     tier: front
   name: vote
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: vote
@@ -20,7 +20,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: schoolofdevops/vote:v1rkdd
         name: vote
         resources: {}
 status: {}
