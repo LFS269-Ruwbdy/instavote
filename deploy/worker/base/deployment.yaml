@@ -20,7 +20,7 @@ spec:
         tier: backend
     spec:
       containers:
-              - image: schoolofdevops/worker:latest
+      - image: schoolofdevops/worker:latest
         name: worker
         resources: {}
 status: {}
