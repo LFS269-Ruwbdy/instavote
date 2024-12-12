@@ -11,6 +11,7 @@ namespace: instavote
 
 images:
   - name: ruwbdy/vote
+    newName: ruwbdy/vote
     newTag: v5 # {"$imagepolicy": "flux-system:vote:tag"}
 replicas:
   - name: vote
