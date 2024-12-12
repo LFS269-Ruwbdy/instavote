@@ -7,12 +7,12 @@ patchesStrategicMerge:
 - service.yaml
 namespace: instavote
 images:
-- name: ruwbdy/vote
+- name: schoolofdevops/vote
   newName: ruwbdy/vote
   newTag: main-7d09d98c-1733763067 # {"$imagepolicy": "flux-system:vote:tag"}
 replicas:
 - name: vote
-  count: 5
+  count: 2
 commonLabels:
   project: instavote
   env: staging
