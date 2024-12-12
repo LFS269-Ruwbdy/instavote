@@ -12,7 +12,7 @@ images:
   newTag: main-7d09d98c-1733763067 # {"$imagepolicy": "flux-system:vote:tag"}
 replicas:
 - name: vote
-  count: 4
+  count: 5
 commonLabels:
   project: instavote
   env: staging
